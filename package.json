@@ -1,0 +1,27 @@
+{
+  "name": "server-mvc",
+  "version": "1.0.0",
+  "description": "Instância básica de um servidor node + MVC + postgres + Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "crud",
+    "express",
+    "postgresql",
+    "sql",
+    "javascript"
+  ],
+  "author": "Felipe Santos",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.0.1",
+    "pg": "^8.3.0"
+  }
+}
